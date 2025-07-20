@@ -1,12 +1,32 @@
-# React + Vite
+# 📸 Storyblok Portfolio Starter Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b8f1a1f-2a42-4a8c-9c9a-3b8b5c6c9d3e/deploy-status)](https://app.netlify.com/sites/storyblok-portfolio-starter-template/deploys)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Currently, two official plugins are available:
+A modern portfolio starter project built with **React (ES6)**, powered by the **Storyblok CMS** and styled with **CSS Grid**. This template fetches content, assets, and components dynamically from Storyblok and is ideal for developers looking to quickly bootstrap a portfolio or personal site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** [Marcel's Story](https://storyblok-portfolio-starter-template.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+
+- ⚛️ React (Client-side)
+- 📦 ES6 Modules
+- 🧠 Storyblok CMS + Storyblok JS Client
+- 🎨 CSS with Grid Layout System
+- ⚡ Vite (Lightning-fast dev/build tool)
+- 🔒 HTTPS via `mkcert` for local development (Storyblok preview requires HTTPS)
+- 🌍 Deployed on Netlify
+
+---
+
+## 🚀 Quick Start
+
+Follow these steps to get the project running locally:
+
+### 1. **Fork and Clone the Repo**
+
+```bash
+git clone https://github.com/YOUR-USERNAME/storyblok-portfolio-starter.git
+cd storyblok-portfolio-starter
