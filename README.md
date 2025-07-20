@@ -28,5 +28,61 @@ Follow these steps to get the project running locally:
 ### 1. **Fork and Clone the Repo**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/storyblok-portfolio-starter.git
+git clone https://github.com/oketchmarcellus/storyblok-portfolio-starter.git
 cd storyblok-portfolio-starter
+
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+```
+
+### 3. Configure Environment
+Create a .env file in the root directory and insert your Storyblok Preview API Token:
+
+```bash
+
+VITE_STORYBLOK_DELIVERY_API_TOKEN=your-storyblok-preview-token
+
+```
+
+### 4. Run Locally with HTTPS
+
+```bash
+npm run dev
+
+```
+✅ The project will run on https://localhost:5173/ (or 5174 if the port is taken).
+
+🔒 This project uses mkcert to enable HTTPS in development mode. Make sure to install and trust your local certificates.
+
+### 🔧 Vite Configuration
+This project uses custom Vite plugins to support HTTPS and other development features. Refer to the vite.config.js file for plugin setup and additional options.
+
+### 🧱 Editing Content
+1. Go to your [Storyblok Dashboard](https://app.storyblok.com/#/login).
+2. Edit your content blocks, images, and other assets.
+3. Save and preview changes directly in your local environment or on the live site.
+🔄 Changes will reflect automatically if you're using the Preview API.
+
+### 📁 Project Structure
+
+```bash
+project-root/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── storyblokService.js
+│   └── App.jsx
+├── vite.config.js
+├── .env
+├── package.json
+└── README.md
+
+```
+
+
